@@ -1,8 +1,6 @@
-# ✈️ 3D Aircraft Orientation Visualization with ESP8266 + MPU6050
+# ✈️ 3D Visualization of Aircraft Orientation  with ESP8266 + MPU6050
 
 This project visualizes real-time 3D aircraft orientation using an ESP8266 (NodeMCU) and MPU6050 sensor.  
-The data is streamed over WiFi and visualized on a web browser using Three.js.
-
 
 ## 🚀 Features
 
@@ -37,4 +35,17 @@ The data is streamed over WiFi and visualized on a web browser using Three.js.
 ## Software Used:
 - Processing     https://processing.org/download
 - ArduinoIDE
+
+  ## Steps
+  - Give the connections
+  - Upload the 'ESP8266.ino' file into ESP8266 using ArduinoIDE select 'COM' Port before uploading the code
+  - Download Processing Software in your PC and Put the '3D_Visualization.pde' file in it and run the code after uploading the code to ESP8266
+
+ ![Screenshot 2025-04-29 202907](https://github.com/user-attachments/assets/48e96c98-9184-4ccb-9b67-a9eeb60c14fa)
+
+![Screenshot 2025-04-29 201403](https://github.com/user-attachments/assets/0a292e93-6c6f-4e4a-9877-886ed7db19b0)
+![Screenshot 2025-04-29 202840](https://github.com/user-attachments/assets/68d28b22-a118-428f-86a1-834aefac9ddb)
+
+![Screenshot 2025-04-29 201308](https://github.com/user-attachments/assets/dfd9fb5a-4331-48f6-bc1f-6d2bff5a8a61)
+
 
